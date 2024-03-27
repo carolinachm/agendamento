@@ -1,0 +1,66 @@
+###
+POST http://localhost:8080/api/paciente
+Content-Type: application/json
+
+{
+  "nome": "Paciente 01",
+  "sobrenome": "De Sousa",
+  "data_Nascimento": "2018-08-19",
+  "cpf": "23571591704",
+  "email": "isabela_castro@stricker.eu"
+}
+
+<> 2024-03-26T225105.200.json
+<> 2024-03-26T165403.201.json
+<> 2024-03-26T165400.201.json
+<> 2024-03-26T165356.201.json
+<> 2024-03-26T165015.201.json
+<> 2024-03-26T164520.404.json
+<> 2024-03-26T164503.404.json
+
+###
+GET http://localhost:8080/api/paciente
+Content-Type: application/json
+
+<> 2024-03-26T225110.200.json
+<> 2024-03-26T165924.200.json
+<> 2024-03-26T165408.200.json
+<> 2024-03-26T165337.200.json
+<> 2024-03-26T165235.405.json
+<> 2024-03-26T165208.405.json
+<> 2024-03-26T165130.405.json
+
+###
+GET http://localhost:8080/api/paciente/4
+
+<> 2024-03-26T225316.200.json
+<> 2024-03-26T225127.200.json
+<> 2024-03-26T165918.200.json
+<> 2024-03-26T165619.200.json
+<> 2024-03-26T165602.404.json
+<> 2024-03-26T165557.404.json
+<> 2024-03-26T165536.404.json
+
+###
+PUT http://localhost:8080/api/paciente
+Content-Type: application/json
+
+{
+  "id": 4,
+  "nome": "Teste ",
+  "sobrenome": "Castro",
+  "data_Nascimento": "2000-03-25",
+  "cpf": "23571591704",
+  "email": "isabela_castro@stricker.eu.com"
+}
+
+<> 2024-03-26T225334.200.json
+<> 2024-03-26T225305.200.json
+<> 2024-03-26T225227.400.json
+<> 2024-03-26T165912.200.json
+<> 2024-03-26T165846.405.json
+
+###
+DELETE http://localhost:8080/api/paciente/1
+Content-Type: application/json
+

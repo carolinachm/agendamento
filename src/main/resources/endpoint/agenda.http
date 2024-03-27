@@ -1,0 +1,53 @@
+###
+POST http://localhost:8080/api/agenda
+Content-Type: application/json
+
+{
+"id": 0,
+"descricao": "Teste",
+"data_Hora": "",
+"data_Criacao": "",
+"pacientes": {
+  "id": 4,
+  "nome": "Isabela Luana ",
+  "sobrenome": "Castro",
+  "data_Nascimento": "2000-03-25",
+  "cpf": "23571591704",
+  "email": "isabela_castro@stricker.eu.com"
+}
+}
+###
+GET http://localhost:8080/api/agenda
+Content-Type: application/json
+
+<> 2024-03-26T231344.200.json
+
+###
+GET http://localhost:8080/api/agenda/2
+Content-Type: application/json
+
+<> 2024-03-26T231351.200.json
+<> 2024-03-26T231327.404.json
+
+###
+PUT http://localhost:8080/api/agenda
+Content-Type: application/json
+
+{
+  "id": 1,
+  "descricao": "teste teste teste",
+  "data_Hora": "",
+  "data_Criacao": "",
+  "pacientes":  {
+    "id": 4,
+    "nome": "Isabela Luana ",
+    "sobrenome": "Castro",
+    "data_Nascimento": "2000-03-25",
+    "cpf": "23571591704",
+    "email": "isabela_castro@stricker.eu.com"
+  }
+}
+
+###
+DELETE http://localhost:8080/api/agenda/2
+Content-Type: application/json

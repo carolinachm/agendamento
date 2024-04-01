@@ -1,7 +1,6 @@
 package br.com.pdev.agendamento.model;
 
 import jakarta.persistence.*;
-import lombok.Builder;
 import lombok.Data;
 
 import java.util.Date;
